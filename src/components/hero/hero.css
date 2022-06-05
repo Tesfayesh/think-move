@@ -1,0 +1,29 @@
+.hero {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: max-content;
+    height: 50rem;
+    position: absolute;
+    margin-top: 1rem;
+   
+    /*border-radius: 12rem 12rem 0 0;*/
+
+}
+
+
+/* ========== Media Queries(Medium devices) ===========*/
+
+@media screen and (max-width:1024px) {
+    .hero {
+        height: 68vh;
+    }
+
+}
+
+/* ========== Media Queries(Smaller devices) ===========*/
+
+@media screen and (max-width:600px) {
+    .hero {
+        height: 150vh;
+    }
+
+}
